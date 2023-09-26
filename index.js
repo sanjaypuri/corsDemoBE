@@ -4,7 +4,7 @@ import cors from 'cors';
 const app = express();
 app.use(cors(
   {
-    origin:["http://127.0.0.1:3000", "https://coresbackend.onrender.com/"],
+    origin:["http://127.0.0.1:3000", "https://cors-demo-fe.vercel.app"],
     methods:["GET", "POST"],
     credentials: true
   }
